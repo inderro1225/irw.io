@@ -14,7 +14,7 @@ $message = "Invalid Username or Password!";
 }
 }
 if(isset($_SESSION["name"])) {
-header("Location:index.php");
+header("Location:http://localhost/Inder/index.php");
 }
 ?>
 <html>

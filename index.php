@@ -28,25 +28,25 @@ if($_SESSION["name"]) {
 <!---nav bar starts-->
     <ul class="nav justify-content-center" style="background-color:#E6E6FA;height:65px;font-size:25px ;padding-left:10px">
   <li class="nav-item">
-    <a class="nav-link active" href="add.php">Add</a>
+    <a class="nav-link active" href="http://localhost/Inder/add.php">Add</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="update.php">Update</a>
+    <a class="nav-link" href="http://localhost/Inder/update.php">Update</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="contact.php">Contact</a>
+    <a class="nav-link" href="http://localhost/Inder/contact.php">Contact</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" style="color:red" href="logout.php" >Logout</a>
+    <a class="nav-link" style="color:red" href="http://localhost/Inder/logout.php" >Logout</a>
   </li>
 </ul>
 <!--button groupd---->
-<BR><a href="add.php"><button type="button" class="btn btn-primary btn-lg btn-block">ADD NEW RECORD</button></a><br>
-<a href="update.php"><button type="button" class="btn btn-secondary btn-lg btn-block">UPDATE A RECORD</button></a><br>
-<a href="delete.php"><button type="button" class="btn btn-primary btn-lg btn-block">DELETE A RECORD</button></a><br>
-<a href="alldetail.php"><button type="button" class="btn btn-secondary btn-lg btn-block">SHOW ALL DETAIL</button></a><br>
-<a href="sall.php"><button type="button" class="btn btn-primary btn-lg btn-block">SHOW DETAIL BY ID</button></a><br>
-<a href="logout.php"><button type="button" class="btn btn-secondary btn-lg btn-block">LET ME OUT</button></a><br>
+<BR><a href="http://localhost/Inder/add.php"><button type="button" class="btn btn-primary btn-lg btn-block">ADD NEW RECORD</button></a><br>
+<a href="http://localhost/Inder/update.php"><button type="button" class="btn btn-secondary btn-lg btn-block">UPDATE A RECORD</button></a><br>
+<a href="http://localhost/Inder/delete.php"><button type="button" class="btn btn-primary btn-lg btn-block">DELETE A RECORD</button></a><br>
+<a href="http://localhost/Inder/alldetail.php"><button type="button" class="btn btn-secondary btn-lg btn-block">SHOW ALL DETAIL</button></a><br>
+<a href="http://localhost/Inder/sall.php"><button type="button" class="btn btn-primary btn-lg btn-block">SHOW DETAIL BY ID</button></a><br>
+<a href="http://localhost/Inder/logout.php"><button type="button" class="btn btn-secondary btn-lg btn-block">LET ME OUT</button></a><br>
 
 <!----adm & user--->
 <?php
@@ -63,28 +63,28 @@ if($_SESSION["name"]) {
 <!---nav bar starts-->
     <ul class="nav justify-content-center" style="background-color:#E6E6FA;height:65px;font-size:25px ;padding-left:10px">
   <li class="nav-item">
-    <a class="nav-link active" href="add.php">Add</a>
+    <a class="nav-link active" href="http://localhost/Inder/add.php">Add</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="update.php">Update</a>
+    <a class="nav-link" href="http://localhost/Inder/update.php">Update</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="contact.php">Contact</a>
+    <a class="nav-link" href="http://localhost/Inder/contact.php">Contact</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" style="color:red" href="logout.php" >Logout</a>
+    <a class="nav-link" style="http://localhost/Inder/color:red" href="logout.php" >Logout</a>
   </li>
 </ul>
 <!--button groupd---->
-<BR><a href="add.php"><button type="button" class="btn btn-primary btn-lg btn-block">ADD NEW RECORD</button></a><br>
-<a href="update.php"><button type="button" class="btn btn-secondary btn-lg btn-block">UPDATE A RECORD</button></a><br>
-<a href="logout.php"><button type="button" class="btn btn-secondary btn-lg btn-block">LET ME OUT</button></a><br>
+<BR><a href="http://localhost/Inder/add.php"><button type="button" class="btn btn-primary btn-lg btn-block">ADD NEW RECORD</button></a><br>
+<a href="http://localhost/Inder/update.php"><button type="button" class="btn btn-secondary btn-lg btn-block">UPDATE A RECORD</button></a><br>
+<a href="http://localhost/Inder/logout.php"><button type="button" class="btn btn-secondary btn-lg btn-block">LET ME OUT</button></a><br>
 
 <?php }
 ?>
 <!--session variable closing-->
 <?php
-}else echo "<a href='login.php'><h1>Please login first</h1></a>";
+}else echo "<a href='http://localhost/Inder/login.php'><h1>Please login first</h1></a>";
 ?>
 </body>
 </html>

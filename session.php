@@ -2,7 +2,7 @@
 $dbc=mysqli_connect("locahost","root","","inderro")or die("can't connect");
 session_start(); 
      
-$user_check=$_SESSION['login_user'];
+$user_check=$_SESSION['http://localhost/Inder/login_user'];
 $ses_sql=mysqli_query($dbc,$query);
 $row=mysqli_fetch_assoc($ses_sql);
 $login_session=$row['username'];

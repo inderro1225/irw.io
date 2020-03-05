@@ -40,16 +40,16 @@ body {
 <ul class="nav justify-content-center" style="background-color:#E6E6FA;height:65px;font-size:25px ;padding-left:10px">
   
 <li class="nav-item">
-    <a class="nav-link" href="index.php">Home</a>
+    <a class="nav-link" href="http://localhost/Inder/index.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="add.php">Add</a>
+    <a class="nav-link active" href="http://localhost/Inder/add.php">Add</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="update.php">Update</a>
+    <a class="nav-link" href="http://localhost/Inder/update.php">Update</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" style="color:red" href="logout.php" >Logout</a>
+    <a class="nav-link" style="color:red" href="http://localhost/Inder/logout.php" >Logout</a>
   </li>
 </ul>
 
@@ -108,7 +108,7 @@ cgiven=$cgiven,cashleft=$cashleft where date='$date1' and id=$id";
 $result=mysqli_query($dbc,$q);
 if($result)
  {  
-      header("location:update.php");
+      header("location:http://localhost/Inder/update.php");
       exit();
 }
 else
@@ -116,7 +116,7 @@ else
 }
 ?>
 <?php
-}else echo "<a href='login.php'><h1>Please login first</h1></a>";
+}else echo "<a href='http://localhost/Inder/login.php'><h1>Please login first</h1></a>";
 ?>
 </body>
 </head>

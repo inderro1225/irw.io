@@ -36,16 +36,16 @@ if($_SESSION["name"]) {
 <!---nav bar starts-->
 <ul class="nav justify-content-center" style="background-color:#E6E6FA;height:65px;font-size:25px ;padding-left:10px">
 <li class="nav-item">
-    <a class="nav-link active" href="index.php">Home</a>
+    <a class="nav-link active" href="http://localhost/Inder/index.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="add.php">Add</a>
+    <a class="nav-link active" href="http://localhost/Inder/add.php">Add</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="update.php">Update</a>
+    <a class="nav-link" href="http://localhost/Inder/update.php">Update</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" style="color:red" href="logout.php" >Logout</a>
+    <a class="nav-link" style="color:red" href="http://localhost/Inder/logout.php" >Logout</a>
   </li>
 </ul><br>
 
@@ -78,7 +78,7 @@ $q="delete from  customer WHERE date='$fd' and id=$id";
 $result=mysqli_query($dbc,$q);
 if($result)
  {  
-      header("location:delete.php");
+      header("location:http://localhost/Inder/delete.php");
       exit();
 }
 else
@@ -90,10 +90,10 @@ else
 } 
 //comparision adm and emp
 else
-{header("location:login.php");}
+{header("location:http://localhost/Inder/login.php");}
 ?>
 <?php
-}else echo "<a href='login.php'><h1>Please login first</h1></a>";
+}else echo "<a href='http://localhost/Inder/login.php'><h1>Please login first</h1></a>";
 ?>
 
 </body>
